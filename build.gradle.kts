@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("com.github.kwhat:jnativehook:2.2.2")
 }
 
 tasks.test {
